@@ -27,20 +27,20 @@ steps:
     with:
       persist-credentials: false
 
-  - name: Setup Node.js 🔧
+  - name: Setup Node
     uses: actions/setup-node@v4
     with:
       node-version: 20
 
-  - name: Update npm 🚀
+  - name: Update npm
     run: npm install -g npm@latest
 
-  - name: Install and Build 🔧
+  - name: Install and Build
     run: |
       npm install
       npm run build
 
-  - name: Deploy 🚀
+  - name: Deploy
     uses: JamesIves/github-pages-deploy-action@v4
     with:
       token: ${{ secrets.GITHUB_TOKEN }}
