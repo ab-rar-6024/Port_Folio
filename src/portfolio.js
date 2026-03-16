@@ -49,7 +49,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "AI & DATA SCIENCE ENGINEER WHO BUILDS INTELLIGENT AND DATA-DRIVEN SOLUTIONS",
+  subTitle:
+    "AI & DATA SCIENCE ENGINEER WHO BUILDS INTELLIGENT AND DATA-DRIVEN SOLUTIONS",
   skills: [
     emoji(
       "⚡ Develop machine learning models and AI-powered applications to solve real-world problems"
@@ -89,7 +90,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -100,17 +101,17 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-  schoolName: "B. S. Abdur Rahman Crescent Institute of Science and Technology",
-  logo: require("./assets/images/crescentLogo.png"),
-  subHeader: "B.Tech – Artificial Intelligence and Data Science",
-  duration: "2023 - 2027",
-  desc: "Focused on building strong foundations in AI, Machine Learning, Data Science, and Intelligent System Design.",
-  descBullets: [
-    "Hands-on experience in ML, Data Analytics, and Automation Systems",
-    "Developed real-world academic and internship-based projects"
-  ]
-},
-
+      schoolName:
+        "B. S. Abdur Rahman Crescent Institute of Science and Technology",
+      logo: require("./assets/images/crescentLogo.png"),
+      subHeader: "B.Tech – Artificial Intelligence and Data Science",
+      duration: "2023 - 2027",
+      desc: "Focused on building strong foundations in AI, Machine Learning, Data Science, and Intelligent System Design.",
+      descBullets: [
+        "Hands-on experience in ML, Data Analytics, and Automation Systems",
+        "Developed real-world academic and internship-based projects"
+      ]
+    }
   ]
 };
 
@@ -187,7 +188,6 @@ const bigProjects = {
       projectName: "Helpseek",
       projectDesc: "Help to connect people",
       footerLink: [
-        
         //  you can add extra buttons here.
       ]
     },
@@ -195,8 +195,7 @@ const bigProjects = {
       image: require("./assets/images/logo.png"),
       projectName: "Attendify",
       projectDesc: "It an employee based attendance system",
-      footerLink: [
-      ]
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -207,14 +206,12 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Certifications 🏆 "),
-  subtitle:
-    "Certifications and Some Cool Stuff that I have done !",
+  subtitle: "Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
       title: "Machine learning",
-      subtitle:
-        "Complete a machine learning course",
+      subtitle: "Complete a machine learning course",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
