@@ -1,7 +1,5 @@
 🚀 Mohamed Abrar – Portfolio
 
-🌐 Live Website:
-👉 https://abrar-portfolio-sigma.vercel.app/
 
 👨‍💻 About Me
 
